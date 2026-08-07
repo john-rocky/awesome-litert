@@ -1,0 +1,30 @@
+name: Radar
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'   # Monday 09:00 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run radar sweep
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/radar.py
+
+      - name: Commit updates
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add README.md RADAR.md
+          if ! git diff --cached --quiet; then
+            git commit -F /tmp/radar-commit-msg.txt
+            git push
+          fi

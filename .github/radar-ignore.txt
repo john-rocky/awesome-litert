@@ -1,0 +1,10 @@
+# One repo (owner/name) or Hugging Face model id per line. Matched case-insensitively.
+# Entries here are never auto-added to README.md or RADAR.md again.
+# (Manual re-adds to README.md are always possible — this only silences the radar.)
+kellyvv/PhoneClaw            # agent app; LiteRT-centrality unverified (2026-08-07 first sweep)
+SimonSchubert/Kai            # agent app; LiteRT-centrality unverified
+agents-io/PokeClaw           # agent app; LiteRT-centrality unverified
+jegly/Box                    # general AI suite; LiteRT-centrality unverified
+gergelyvagujhelyi/CalculatorM3   # calculator app that happens to use on-device AI
+afondiel/Edge-AI-Model-Zoo   # generic edge-model list, not LiteRT-specific
+songhieu/flutter_litert_lm       # no description/readme yet; revisit when documented
