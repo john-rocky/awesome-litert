@@ -84,6 +84,7 @@ Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Py
 - [Hugging Face: litert-community](https://huggingface.co/litert-community) — 200+ ready-to-run models maintained with the LiteRT team: LLMs and VLMs as `.litertlm`, classic vision/audio as `.tflite`, many with per-SoC NPU-compiled variants. Recent arrivals include Mamba2 and gated-delta hybrid architectures (granite-4.0-h, Qwen3.5).
 - [john-rocky/LiteRT-Models](https://github.com/john-rocky/LiteRT-Models) — Community conversions (TTS, ASR, vision, video) with GPU-acceleration notes and verification records against the source models.
 - [KegangWangCCNU/FacePhys-Release](https://github.com/KegangWangCCNU/FacePhys-Release) — rPPG (camera heart-rate) state-space model built on LiteRT.
+- [ShadowSafin/AndroLLM](https://github.com/ShadowSafin/AndroLLM) — Open-source Android AI using LiteRT-LM with hardware acceleration, cloud providers, memory, and voice.
 
 ## Conversion & quantization
 
