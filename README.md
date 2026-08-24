@@ -97,6 +97,7 @@ Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Py
 - [NightMean/OlliteRT](https://github.com/NightMean/OlliteRT) — Turn an Android phone into a fully local OpenAI-compatible LLM inference server.
 - [Cyclenerd/android-llm-server](https://github.com/Cyclenerd/android-llm-server) — Local LLM server for Android (Gemma 4, LiteRT, OpenAI API).
 - [imertz/litert-lm-api-server](https://github.com/imertz/litert-lm-api-server) — Lightweight Node.js server exposing an OpenAI-compatible API over LiteRT-LM.
+- [angolo40/vicino-llm](https://github.com/angolo40/vicino-llm) — VicinoLLM - your LLM, close to you. A local OpenAI-compatible LLM server on Android, powered by Gemma 4 via LiteRT-LM.
 
 ## Benchmarks & engineering notes
 
