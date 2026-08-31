@@ -78,6 +78,7 @@ Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Py
 - [sagar-develop/litertlm-kmp](https://github.com/sagar-develop/litertlm-kmp) — Kotlin Multiplatform engine with stateful KV-cache chat sessions.
 - [Luxshan2000/LiteRTLM-Swift-SDK](https://github.com/Luxshan2000/LiteRTLM-Swift-SDK) — Swift SDK: text, vision, audio and tool calling on CPU + GPU (Metal).
 - [kursor1337/KTensorFlow](https://github.com/kursor1337/KTensorFlow) — Kotlin Multiplatform library for using LiteRT models from common code.
+- [nikunjsingh93/ondevice-studio](https://github.com/nikunjsingh93/ondevice-studio) — OnDevice Studio is an Android app that helps you build and preview web apps (HTML/CSS/JS) directly on your device using local AI workflows. Import a compatib...
 
 ## Models
 
