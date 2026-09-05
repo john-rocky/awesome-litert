@@ -58,6 +58,14 @@ scope. PRs welcome — see [Contributing](#contributing).*
 - [iFleey/PPOCRv5-Android](https://github.com/iFleey/PPOCRv5-Android) — Real-time OCR app with PP-OCRv5 on LiteRT.
 - [alphasoftwarepy/as-core](https://github.com/alphasoftwarepy/as-core) — Local AI runtime for edge hardware built on LiteRT-LM and Gemma.
 
+### Recipes
+
+Device-verified recipes for adding one model to an app that already exists: the dependency line, the file to copy, the model file with its sha256, a verify command with its expected output, and the devices it was checked on, with dates. Machine-readable `recipe.json` next to each.
+
+- [Background removal (ormbg) in an existing Android app, on the GPU](https://github.com/john-rocky/LiteRT-Models/blob/main/ormbg/INTEGRATION.md) — LiteRT CompiledModel 2.2.0; Pixel 8a (Android 16): 246 ms per frame for the model, 361 ms end to end, 246/246 ops on the GPU, 2026-09-05.
+- [Offline chat with Qwen2.5-1.5B-Instruct in an existing Android app](https://github.com/john-rocky/on-device-recipes/blob/main/android-llm-chat/INTEGRATION.md) — LiteRT-LM 0.16.1 (`litertlm-android`), two Gradle lines and two Kotlin files with cancel and release; Pixel 8a (Android 16): 10.48 tokens/s decode on CPU, 13.8 on GPU, 0.67 s to the first token, 2026-09-05. Index of all recipes: [on-device-recipes](https://github.com/john-rocky/on-device-recipes).
+- [A fine-tuned Hugging Face model in an existing iPhone app](https://github.com/john-rocky/swift-litert-lm/blob/main/docs/recipe-hf-finetune-to-iphone.md) — hf-to-litertlm (one command to a `.litertlm`, 8-question gate) + swift-litert-lm 0.2.0 `LiteRTChat`; verified on a Mac Studio (M4 Max) through the same Swift call, 142.7 tokens/s decode on the GPU, 2026-09-05; iPhone row pending.
+
 ## Bindings & wrappers
 
 Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Python:
