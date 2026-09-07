@@ -65,6 +65,7 @@ Device-verified recipes for adding one model to an app that already exists: the 
 - [Background removal (ormbg) in an existing Android app, on the GPU](https://github.com/john-rocky/LiteRT-Models/blob/main/ormbg/INTEGRATION.md) — LiteRT CompiledModel 2.2.0; Pixel 8a (Android 16): 246 ms per frame for the model, 361 ms end to end, 246/246 ops on the GPU, 2026-09-05.
 - [Offline chat with Qwen2.5-1.5B-Instruct in an existing Android app](https://github.com/john-rocky/on-device-recipes/blob/main/android-llm-chat/INTEGRATION.md) — LiteRT-LM 0.16.1 (`litertlm-android`), two Gradle lines and two Kotlin files with cancel and release; Pixel 8a (Android 16): 10.48 tokens/s decode on CPU, 13.8 on GPU, 0.67 s to the first token, 2026-09-05. Index of all recipes: [on-device-recipes](https://github.com/john-rocky/on-device-recipes).
 - [A fine-tuned Hugging Face model in an existing iPhone app](https://github.com/john-rocky/swift-litert-lm/blob/main/docs/recipe-hf-finetune-to-iphone.md) — hf-to-litertlm (one command to a `.litertlm`, 8-question gate) + swift-litert-lm 0.2.0 `LiteRTChat`; verified on a Mac Studio (M4 Max) through the same Swift call, 142.7 tokens/s decode on the GPU, 2026-09-05; iPhone row pending.
+- [Desert-Ant-Labs/desert-ant-core](https://github.com/Desert-Ant-Labs/desert-ant-core) — On-device AI SDKs for iOS, macOS, Android, and the web. Small, focused models that run fully offline in Swift, Kotlin, and JavaScript with Core ML, LiteRT, a...
 
 ## Bindings & wrappers
 
@@ -87,6 +88,7 @@ Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Py
 - [Luxshan2000/LiteRTLM-Swift-SDK](https://github.com/Luxshan2000/LiteRTLM-Swift-SDK) — Swift SDK: text, vision, audio and tool calling on CPU + GPU (Metal).
 - [kursor1337/KTensorFlow](https://github.com/kursor1337/KTensorFlow) — Kotlin Multiplatform library for using LiteRT models from common code.
 - [nikunjsingh93/ondevice-studio](https://github.com/nikunjsingh93/ondevice-studio) — OnDevice Studio is an Android app that helps you build and preview web apps (HTML/CSS/JS) directly on your device using local AI workflows. Import a compatib...
+- [Onion99/Agro](https://github.com/Onion99/Agro) — Private. Local. Yours. Cross-platform On-device LLM & Agent Client powered by LiteRT-LM & Compose Multiplatform.
 
 ## Models
 
@@ -94,6 +96,7 @@ Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Py
 - [john-rocky/LiteRT-Models](https://github.com/john-rocky/LiteRT-Models) — Community conversions (TTS, ASR, vision, video) with GPU-acceleration notes and verification records against the source models.
 - [KegangWangCCNU/FacePhys-Release](https://github.com/KegangWangCCNU/FacePhys-Release) — rPPG (camera heart-rate) state-space model built on LiteRT.
 - [ShadowSafin/AndroLLM](https://github.com/ShadowSafin/AndroLLM) — Open-source Android AI using LiteRT-LM with hardware acceleration, cloud providers, memory, and voice.
+- [PrinceBad/Local-LLM-AI](https://github.com/PrinceBad/Local-LLM-AI) — A premium, high-performance offline Android application for running Large Language Models (LLMs) entirely on-device, powered by Google AI Edge LiteRT and Jet...
 
 ## Conversion & quantization
 
