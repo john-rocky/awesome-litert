@@ -115,7 +115,7 @@ Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Py
 ## Benchmarks & engineering notes
 
 - [john-rocky/apple-silicon-llm-bench](https://github.com/john-rocky/apple-silicon-llm-bench) — Reproducible cross-runtime LLM benchmark (LiteRT-LM · Core AI · MLX · llama.cpp) on Mac and iPhone: one instrument, warm-run protocol, thermal gating, energy per token.
-- [john-rocky/edge-compat](https://github.com/john-rocky/edge-compat) — Measured delegate compatibility for LiteRT: an op-level matrix per backend × runtime version (18 snapshots, 659 entries), a static GPU-fallback linter (`edge-lint`), 190 model cards with browser and device measurements, and a [browser table + demo zoo](https://john-rocky.github.io/edge-compat/) with an `llms.txt` for agents. Passing and failing models both listed.
+- [john-rocky/edge-compat](https://github.com/john-rocky/edge-compat) — Measured delegate compatibility for LiteRT: an op-level matrix per backend × runtime version (18 snapshots, 659 entries), a static GPU-fallback linter (`edge-lint`), 200+ model cards with browser and device measurements, and a [browser table + demo zoo](https://john-rocky.github.io/edge-compat/) with an `llms.txt` for agents. Passing and failing models both listed.
 
 ## Learning
 
