@@ -103,6 +103,7 @@ Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Py
 - [litert-torch `export_hf`](https://github.com/google-ai-edge/litert-torch) — One command from a Hugging Face repo to a `.litertlm` bundle, quantization recipe included (see [Official](#official)).
 - [LiteRT-CLI](https://github.com/google-ai-edge/LiteRT-CLI) — `litert convert` / `litert quantize` for classic models from a small Python wrapper class.
 - [ai-edge-quantizer](https://github.com/google-ai-edge/ai-edge-quantizer) — Standalone quantization when you need recipe control (see [Official](#official)).
+- [edge-lint](https://github.com/john-rocky/edge-compat#edge-lint--static-delegate-pre-flight) — Static pre-flight for a `.tflite`: predicts GPU delegate fallback per op from a measured matrix before you run it, no device or runtime needed (CI-friendly, exit codes + JSON).
 
 ## Serving
 
@@ -114,6 +115,7 @@ Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Py
 ## Benchmarks & engineering notes
 
 - [john-rocky/apple-silicon-llm-bench](https://github.com/john-rocky/apple-silicon-llm-bench) — Reproducible cross-runtime LLM benchmark (LiteRT-LM · Core AI · MLX · llama.cpp) on Mac and iPhone: one instrument, warm-run protocol, thermal gating, energy per token.
+- [john-rocky/edge-compat](https://github.com/john-rocky/edge-compat) — Measured delegate compatibility for LiteRT: an op-level matrix per backend × runtime version (18 snapshots, 659 entries), a static GPU-fallback linter (`edge-lint`), 190 model cards with browser and device measurements, and a [browser table + demo zoo](https://john-rocky.github.io/edge-compat/) with an `llms.txt` for agents. Passing and failing models both listed.
 
 ## Learning
 
