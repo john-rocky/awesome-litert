@@ -89,6 +89,7 @@ Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Py
 - [kursor1337/KTensorFlow](https://github.com/kursor1337/KTensorFlow) — Kotlin Multiplatform library for using LiteRT models from common code.
 - [nikunjsingh93/ondevice-studio](https://github.com/nikunjsingh93/ondevice-studio) — OnDevice Studio is an Android app that helps you build and preview web apps (HTML/CSS/JS) directly on your device using local AI workflows. Import a compatib...
 - [Onion99/Agro](https://github.com/Onion99/Agro) — Private. Local. Yours. Cross-platform On-device LLM & Agent Client powered by LiteRT-LM & Compose Multiplatform.
+- [itsyuimorii/obsidian-gemma4-litert-wiki](https://github.com/itsyuimorii/obsidian-gemma4-litert-wiki) — Run Gemma 4 E4B locally inside Obsidian via LiteRT-LM and WebGPU — private, offline, no API key, no Ollama, no server. Builds Andrej Karpathy's LLM wiki over...
 
 ## Models
 
@@ -125,6 +126,7 @@ Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Py
 - [seehiong/local-ai-starter](https://github.com/seehiong/local-ai-starter) — Zero-backend client-side AI assistant starter template on WebGPU + LiteRT-LM.
 - [SNU-RTOS/minimal-litert](https://github.com/SNU-RTOS/minimal-litert) — Minimal Bazel-built LiteRT example with XNNPACK/GPU profiling.
 - [Data-Sapien/awesome-on-device-mobile-llms](https://github.com/Data-Sapien/awesome-on-device-mobile-llms) — Adjacent curation: shipping on-device LLMs on mobile (runtime comparisons, model picks, architecture).
+- [SyltechAI/RustSensei](https://github.com/SyltechAI/RustSensei) — An offline Android app that teaches Rust programming through an on-device AI tutor, interactive exercises, quizzes, and a structured book — all running local...
 
 ## Contributing
 
