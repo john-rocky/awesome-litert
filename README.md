@@ -90,6 +90,7 @@ Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Py
 - [nikunjsingh93/ondevice-studio](https://github.com/nikunjsingh93/ondevice-studio) — OnDevice Studio is an Android app that helps you build and preview web apps (HTML/CSS/JS) directly on your device using local AI workflows. Import a compatib...
 - [Onion99/Agro](https://github.com/Onion99/Agro) — Private. Local. Yours. Cross-platform On-device LLM & Agent Client powered by LiteRT-LM & Compose Multiplatform.
 - [itsyuimorii/obsidian-gemma4-litert-wiki](https://github.com/itsyuimorii/obsidian-gemma4-litert-wiki) — Run Gemma 4 E4B locally inside Obsidian via LiteRT-LM and WebGPU — private, offline, no API key, no Ollama, no server. Builds Andrej Karpathy's LLM wiki over...
+- [TakashiYoshinaga/LocalVisionAI-for-Unity](https://github.com/TakashiYoshinaga/LocalVisionAI-for-Unity) — Fully offline Unity sample for Android: describe camera photos and answer typed questions on-device with Gemma via LiteRT-LM. No network, model bundled in th...
 
 ## Models
 
@@ -98,6 +99,7 @@ Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Py
 - [KegangWangCCNU/FacePhys-Release](https://github.com/KegangWangCCNU/FacePhys-Release) — rPPG (camera heart-rate) state-space model built on LiteRT.
 - [ShadowSafin/AndroLLM](https://github.com/ShadowSafin/AndroLLM) — Open-source Android AI using LiteRT-LM with hardware acceleration, cloud providers, memory, and voice.
 - [PrinceBad/Local-LLM-AI](https://github.com/PrinceBad/Local-LLM-AI) — A premium, high-performance offline Android application for running Large Language Models (LLMs) entirely on-device, powered by Google AI Edge LiteRT and Jet...
+- [umarpazir11/pocketsage](https://github.com/umarpazir11/pocketsage) — A fully offline, on-device RAG app for Android. Ask questions about any PDF — your data never leaves the phone.
 
 ## Conversion & quantization
 
@@ -113,6 +115,8 @@ Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Py
 - [imertz/litert-lm-api-server](https://github.com/imertz/litert-lm-api-server) — Lightweight Node.js server exposing an OpenAI-compatible API over LiteRT-LM.
 - [angolo40/vicino-llm](https://github.com/angolo40/vicino-llm) — VicinoLLM - your LLM, close to you. A local OpenAI-compatible LLM server on Android, powered by Gemma 4 via LiteRT-LM.
 - [abir2afridi/CubicLM](https://github.com/abir2afridi/CubicLM) — CubicLM is a cross-platform AI client for seamless switching between cloud APIs and local, offline inference of custom and uncensored models.
+- [leehack/llamadart](https://github.com/leehack/llamadart) — Cross-platform on-device LLM inference for Dart & Flutter: GGUF via llama.cpp and LiteRT-LM on Android, iOS, macOS, Windows, Linux and web.
+- [CubicLM/CubicLM](https://github.com/CubicLM/CubicLM) — CubicLM is a unified cross-platform AI workspace with local GPU acceleration (GGUF, LiteRT-LM). Supports on-device image generation, 23+ cloud APIs, local me...
 
 ## Benchmarks & engineering notes
 
