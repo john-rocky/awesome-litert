@@ -100,6 +100,7 @@ Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Py
 - [ShadowSafin/AndroLLM](https://github.com/ShadowSafin/AndroLLM) — Open-source Android AI using LiteRT-LM with hardware acceleration, cloud providers, memory, and voice.
 - [PrinceBad/Local-LLM-AI](https://github.com/PrinceBad/Local-LLM-AI) — A premium, high-performance offline Android application for running Large Language Models (LLMs) entirely on-device, powered by Google AI Edge LiteRT and Jet...
 - [umarpazir11/pocketsage](https://github.com/umarpazir11/pocketsage) — A fully offline, on-device RAG app for Android. Ask questions about any PDF — your data never leaves the phone.
+- [xprilion/gemma3-270m-finetune-litert](https://github.com/xprilion/gemma3-270m-finetune-litert) — (no description)
 
 ## Conversion & quantization
 
