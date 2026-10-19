@@ -91,6 +91,7 @@ Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Py
 - [Onion99/Agro](https://github.com/Onion99/Agro) — Private. Local. Yours. Cross-platform On-device LLM & Agent Client powered by LiteRT-LM & Compose Multiplatform.
 - [itsyuimorii/obsidian-gemma4-litert-wiki](https://github.com/itsyuimorii/obsidian-gemma4-litert-wiki) — Run Gemma 4 E4B locally inside Obsidian via LiteRT-LM and WebGPU — private, offline, no API key, no Ollama, no server. Builds Andrej Karpathy's LLM wiki over...
 - [TakashiYoshinaga/LocalVisionAI-for-Unity](https://github.com/TakashiYoshinaga/LocalVisionAI-for-Unity) — Fully offline Unity sample for Android: describe camera photos and answer typed questions on-device with Gemma via LiteRT-LM. No network, model bundled in th...
+- [FilipFan/PolyEngineInfer](https://github.com/FilipFan/PolyEngineInfer) — Run LLM inference in an Android app with llama.cpp, ExecuTorch, LiteRT, ONNX, and more.
 
 ## Models
 
@@ -123,6 +124,8 @@ Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Py
 
 - [john-rocky/apple-silicon-llm-bench](https://github.com/john-rocky/apple-silicon-llm-bench) — Reproducible cross-runtime LLM benchmark (LiteRT-LM · Core AI · MLX · llama.cpp) on Mac and iPhone: one instrument, warm-run protocol, thermal gating, energy per token.
 - [john-rocky/edge-compat](https://github.com/john-rocky/edge-compat) — Measured delegate compatibility for LiteRT: an op-level matrix per backend × runtime version (18 snapshots, 659 entries), a static GPU-fallback linter (`edge-lint`), 200+ model cards with browser and device measurements, and a [browser table + demo zoo](https://john-rocky.github.io/edge-compat/) with an `llms.txt` for agents. Passing and failing models both listed.
+- [zhzy0077/KataDroid](https://github.com/zhzy0077/KataDroid) — Offline KataGo analysis and SGF editing for Android, with LiteRT CPU and optional NPU inference.
+- [Sherin-SEF-AI/Lyne-ADAS](https://github.com/Sherin-SEF-AI/Lyne-ADAS) — Real-time, 100% on-device ADAS for Android: forward-collision, drivable-area segmentation, pedestrian, lane and traffic-sign warnings that self-tune from bud...
 
 ## Learning
 
@@ -133,6 +136,7 @@ Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Py
 - [SNU-RTOS/minimal-litert](https://github.com/SNU-RTOS/minimal-litert) — Minimal Bazel-built LiteRT example with XNNPACK/GPU profiling.
 - [Data-Sapien/awesome-on-device-mobile-llms](https://github.com/Data-Sapien/awesome-on-device-mobile-llms) — Adjacent curation: shipping on-device LLMs on mobile (runtime comparisons, model picks, architecture).
 - [SyltechAI/RustSensei](https://github.com/SyltechAI/RustSensei) — An offline Android app that teaches Rust programming through an on-device AI tutor, interactive exercises, quizzes, and a structured book — all running local...
+- [b0urbonn/appdev_boilerplate](https://github.com/b0urbonn/appdev_boilerplate) — Offline-first Android AI chat app (Expo SDK 57): on-device Gemma 4 via LiteRT-LM + Gemini cloud, image & voice input
 
 ## Contributing
 
