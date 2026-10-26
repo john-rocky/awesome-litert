@@ -66,6 +66,7 @@ Device-verified recipes for adding one model to an app that already exists: the 
 - [Offline chat with Qwen2.5-1.5B-Instruct in an existing Android app](https://github.com/john-rocky/on-device-recipes/blob/main/android-llm-chat/INTEGRATION.md) — LiteRT-LM 0.16.1 (`litertlm-android`), two Gradle lines and two Kotlin files with cancel and release; Pixel 8a (Android 16): 10.48 tokens/s decode on CPU, 13.8 on GPU, 0.67 s to the first token, 2026-09-05. Index of all recipes: [on-device-recipes](https://github.com/john-rocky/on-device-recipes).
 - [A fine-tuned Hugging Face model in an existing iPhone app](https://github.com/john-rocky/swift-litert-lm/blob/main/docs/recipe-hf-finetune-to-iphone.md) — hf-to-litertlm (one command to a `.litertlm`, 8-question gate) + swift-litert-lm 0.2.0 `LiteRTChat`; verified on a Mac Studio (M4 Max) through the same Swift call, 142.7 tokens/s decode on the GPU, 2026-09-05; iPhone row pending.
 - [Desert-Ant-Labs/desert-ant-core](https://github.com/Desert-Ant-Labs/desert-ant-core) — On-device AI SDKs for iOS, macOS, Android, and the web. Small, focused models that run fully offline in Swift, Kotlin, and JavaScript with Core ML, LiteRT, a...
+- [alexeyw/knotwork](https://github.com/alexeyw/knotwork) — An AI agent you build, not just prompt. Local-first Android agent with on-device inference (LiteRT-LM), pipelines you assemble yourself, MCP tool calling, an...
 
 ## Bindings & wrappers
 
@@ -102,6 +103,7 @@ Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Py
 - [PrinceBad/Local-LLM-AI](https://github.com/PrinceBad/Local-LLM-AI) — A premium, high-performance offline Android application for running Large Language Models (LLMs) entirely on-device, powered by Google AI Edge LiteRT and Jet...
 - [umarpazir11/pocketsage](https://github.com/umarpazir11/pocketsage) — A fully offline, on-device RAG app for Android. Ask questions about any PDF — your data never leaves the phone.
 - [xprilion/gemma3-270m-finetune-litert](https://github.com/xprilion/gemma3-270m-finetune-litert) — (no description)
+- [andrisgauracs/eye-photo-sorter](https://github.com/andrisgauracs/eye-photo-sorter) — Drop a folder of photos; Desert Ant Labs' Eye sorts them into receipts, screenshots, documents, pets, blurry, eyes closed and duplicates, entirely in the bro...
 
 ## Conversion & quantization
 
