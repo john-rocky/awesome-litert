@@ -12,31 +12,30 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 
 | Repo | ★ | Created | Signal | Guessed section | Description |
 |---|---|---|---|---|---|
-| [jasonmayes/VectorSearch.js](https://github.com/jasonmayes/VectorSearch.js) | 127 | 2026-03-19 | weak | Bindings & wrappers | Client side vector search using EmbeddingGemma with Web AI (LiteRT.js, TensorFlow.js, and Transformers.js) |
+| [jasonmayes/VectorSearch.js](https://github.com/jasonmayes/VectorSearch.js) | 128 | 2026-03-19 | weak | Bindings & wrappers | Client side vector search using EmbeddingGemma with Web AI (LiteRT.js, TensorFlow.js, and Transformers.js) |
 | [PINTO0309/screen-eye-tracking](https://github.com/PINTO0309/screen-eye-tracking) | 55 | 2026-06-18 | weak | Conversion & quantization | A desktop application that estimates where the user is looking on the selected display and renders a red gaze marker at the estimated hit position. MediaPipe... |
 | [sitammeur/YoloDetect](https://github.com/sitammeur/YoloDetect) | 17 | 2024-10-11 | weak | Models | YOLO and LiteRT.js to find and recognize objects in image, video, and webcam content. |
 | [IoT-gamer/segment-anything-dinov3-onnx](https://github.com/IoT-gamer/segment-anything-dinov3-onnx) | 15 | 2025-09-05 | weak | Conversion & quantization | A set of tools and examples for converting and utilizing powerful vision models, DINOv3 and EdgeTAM (SAM2), within the ONNX ecosystem. |
 | [UCSBarchlab/pyrtlnet](https://github.com/UCSBarchlab/pyrtlnet) | 12 | 2025-06-03 | weak | Conversion & quantization | A hardware implementation of quantized neural network inference in the PyRTL hardware description language. |
-| [kamalkraj/MedGem](https://github.com/kamalkraj/MedGem) | 10 | 2026-01-25 | weak | Running models in your app | MedGEM brings Google's MedGemma and MedASR to offline Android devices for private, multimodal clinical support anywhere. |
+| [kamalkraj/MedGem](https://github.com/kamalkraj/MedGem) | 11 | 2026-01-25 | weak | Running models in your app | MedGEM brings Google's MedGemma and MedASR to offline Android devices for private, multimodal clinical support anywhere. |
 | [Madvulcan/litert-lm-server-wrapper](https://github.com/Madvulcan/litert-lm-server-wrapper) | 9 | 2026-06-02 | strong | Serving | OpenAI-compatible API server for Gemma 4 LiteRT-LM with vision, audio, and MTP |
 | [monday8am/edgelab](https://github.com/monday8am/edgelab) | 9 | 2025-09-23 | strong | Running models in your app | Edge Agent Lab is an Android testing platform for evaluating small language model (SLM) agents directly on mobile devices. |
 | [ashokvarmamatta/MEDHA](https://github.com/ashokvarmamatta/MEDHA) | 7 | 2026-01-12 | strong | Bindings & wrappers | On-device AI chat for Android: Gemma 4 (E2B) through Google LiteRT LM, GPU-accelerated and fully offline. Text, vision and audio, with an optional Gemini pat... |
-| [PINTO0309/Comprehensive-Head-Classification](https://github.com/PINTO0309/Comprehensive-Head-Classification) | 6 | 2026-06-30 | strong | Conversion & quantization | Comprehensive head classification. Presence/absence of hats, sunglasses, and masks; eyes open/closed; mouth open/closed; background simplicity/complexity; an... |
 | [zmxnpquryet-gif/Localllmandroid](https://github.com/zmxnpquryet-gif/Localllmandroid) | 6 | 2026-09-07 | strong | Serving | Offline on-device LLM chat for Android (llama.cpp GGUF + LiteRT-LM) |
 | [Jessitoii/openreef](https://github.com/Jessitoii/openreef) | 5 | 2026-04-04 | strong | Bindings & wrappers | Privacy-first, fully offline personal AI agent for Android built with Flutter, on-device LiteRT-LM inference, native Android tools, MCP integrations, and lon... |
 | [lukaskris/litert-lm-mobile-android](https://github.com/lukaskris/litert-lm-mobile-android) | 5 | 2026-04-25 | strong | Bindings & wrappers | LLM Model garden liteRT Mobile |
+| [raalzate/processflow-architect](https://github.com/raalzate/processflow-architect) | 5 | 2026-08-21 | strong | Models | Event Storming Big Picture (DDD/BPMN/C4/UML) de escritorio, con IA local por defecto (LiteRT-LM sobre WebGPU) |
 | [rogerioth/liteRT-LM-Apple](https://github.com/rogerioth/liteRT-LM-Apple) | 5 | 2026-04-06 | strong | Bindings & wrappers | (no description) |
 | [scriptease/LiteRTLMMinimal](https://github.com/scriptease/LiteRTLMMinimal) | 5 | 2026-04-10 | strong | Models | Showcase how to use https://github.com/google-ai-edge/LiteRT-LM as an xcframework |
 | [LagrangeNSS/LumiRead](https://github.com/LagrangeNSS/LumiRead) | 4 | 2026-05-23 | strong | Learning | Offline, privacy-first picture-book reading companion powered by on-device Gemma 4 E2B (LiteRT-LM). Built for the 2026 Gemma Developer Hackathon · Edge AI tr... |
 | [PrismPhi/radxa-dragon-q6a-qcs6490-gemma4-litertlm-npu](https://github.com/PrismPhi/radxa-dragon-q6a-qcs6490-gemma4-litertlm-npu) | 4 | 2026-06-03 | strong | Bindings & wrappers | Unofficial Ubuntu 24.04 LiteRT-LM NPU runtime for Gemma 4 E2B on Radxa Dragon Q6A / Qualcomm QCS6490. |
+| [cannitellinicholas-spec/PixelUnlockGPU](https://github.com/cannitellinicholas-spec/PixelUnlockGPU) | 4 | 2026-10-02 | strong | Serving | OpenAI-compatible on-device LiteRT-LM server for Pixel (Tensor G5, GPU, Gemini Nano Fast) — serves Gemma or Gemini Nano to TypingMind or any OpenAI client ov... |
 | [leonardonsantos/gemma-server](https://github.com/leonardonsantos/gemma-server) | 4 | 2026-04-22 | strong | Serving | Runs Google's Gemma4-E2B model on Android via Termux using LiteRT-LM, exposing an OpenAI-compatible HTTP API on port 8080. GPU acceleration is attempted auto... |
 | [pingud98/llama_cpp_for_radxa_dragon_wing_q6a](https://github.com/pingud98/llama_cpp_for_radxa_dragon_wing_q6a) | 4 | 2026-05-02 | strong | Benchmarks & engineering notes | Modifiers to get Llama.cpp working using the built in NPU on the Radxa Dragon Wing Q6A SBC (Qualcomm QCS6490 cpu). Hacked together with Claude Code and Deeps... |
 | [visitor257/Ponko](https://github.com/visitor257/Ponko) | 4 | 2026-09-10 | strong | Models | Offline-capable AI app for Android: on-device chat (.litertlm / .gguf) with image and file input, drawing (stable-diffusion.cpp GGUF, optional Vulkan GPU) an... |
 | [bejoyfuuul/litert-lm-tensor-g5-npu](https://github.com/bejoyfuuul/litert-lm-tensor-g5-npu) | 3 | 2026-06-27 | strong | Bindings & wrappers | Run your own AOT-compiled LLM on the Pixel 10 Tensor G5 NPU (EdgeTPU): version-matched LiteRT-LM runtime built from source + a full map of which quantization... |
 | [camachoyury/Validia](https://github.com/camachoyury/Validia) | 3 | 2026-04-15 | strong | Bindings & wrappers | Offline Android inventory app using Gemma 4 on-device with LiteRT-LM |
-| [kellyvv/PhoneClawEngine](https://github.com/kellyvv/PhoneClawEngine) | 3 | 2026-04-22 | strong | Bindings & wrappers | Swift package for on-device LLM inference on iOS GPU. Powered by LiteRT-LM with a native Metal sampler. Wraps the compiled xcframework; binary auto-fetched v... |
 | [yangyuan/litertlm](https://github.com/yangyuan/litertlm) | 3 | 2026-06-09 | strong | Bindings & wrappers | Native LiteRT-LM bindings for Flutter across mobile, desktop, and web. |
-| [zkproofport/rn-litert-gemma4](https://github.com/zkproofport/rn-litert-gemma4) | 3 | 2026-05-08 | strong | Bindings & wrappers | React Native bindings for Gemma 4 on-device inference via LiteRT-LM. Hard fork of hung-yueh/react-native-litert-lm v0.3.6 with Gemma 4-first agent_chat API. |
 | [mbender74/de.marcbender.litertlm](https://github.com/mbender74/de.marcbender.litertlm) | 2 | 2026-05-13 | strong | Models | Titanium Mobile LiteRTLM Module for iOS and Android |
 | [mmethodz/LiteRtLm.NET](https://github.com/mmethodz/LiteRtLm.NET) | 2 | 2026-04-03 | strong | Bindings & wrappers | LiteRT-LM for .NET |
 | [JhonaCodes/litert-rs](https://github.com/JhonaCodes/litert-rs) | 1 | 2026-07-12 | strong | Models | On-device LiteRT-LM (.litertlm) LLM inference for Rust via FFI. Rust sibling of litert_dart. |
@@ -47,6 +46,7 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 | [docwiser/photolens](https://github.com/docwiser/photolens) | 1 | 2026-04-14 | strong | Running models in your app | An Open-source, fully accessible photo galary powered by on-device AI models to generate image descriptions,recognise text (OCR), ask questions, etc built on... |
 | [ellonjoy/gemma_4_E2B](https://github.com/ellonjoy/gemma_4_E2B) | 1 | 2026-09-10 | strong | Bindings & wrappers | gemma-4-E2B-it.litertlm. https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm/tree/main |
 | [gabriel0952/Swift-LiteRTLM](https://github.com/gabriel0952/Swift-LiteRTLM) | 1 | 2026-04-20 | strong | Bindings & wrappers | Swift wrapper for Google's LiteRT-LM — on-device LLM inference on iOS with streaming, tool calling, and multimodal support. |
+| [laksh-ya/dia](https://github.com/laksh-ya/dia) | 1 | 2026-05-03 | strong | Models | local litertlm ai android app (gemma 4) |
 | [nqd2/safetensors-to-litertlm](https://github.com/nqd2/safetensors-to-litertlm) | 1 | 2026-04-13 | strong | Bindings & wrappers | Convert HF safetensors model to LiteRT-LM .litertlm for Edge Gallery |
 | [vtavakkoli/ChatBot](https://github.com/vtavakkoli/ChatBot) | 1 | 2026-06-09 | strong | Bindings & wrappers | Android local LLM chatbot using Google AI Edge LiteRT-LM. Download chat-compatible `.litertlm` models from Hugging Face, run them on-device, and optionally a... |
 | [DMSOUZAMENEZES/litertlm-jvm-demo](https://github.com/DMSOUZAMENEZES/litertlm-jvm-demo) | 0 | 2026-09-01 | strong | Bindings & wrappers | Chat de terminal em Kotlin/JVM que roda um LLM local (.litertlm) na CPU com a API do LiteRT-LM, sem Bazel |
@@ -58,7 +58,6 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 | [gynsolomon/litertlm-converter](https://github.com/gynsolomon/litertlm-converter) | 0 | 2026-03-19 | strong | Models | convert gemma-3-270m pytorch model to litertlm format |
 | [joselune/Swift-LiteRTLMKit](https://github.com/joselune/Swift-LiteRTLMKit) | 0 | 2026-04-09 | strong | Bindings & wrappers | Swift bridge for LiteRT LM |
 | [kaleidot725/LiteRTLMDemo](https://github.com/kaleidot725/LiteRTLMDemo) | 0 | 2026-04-11 | strong | Bindings & wrappers | (no description) |
-| [laksh-ya/dia](https://github.com/laksh-ya/dia) | 0 | 2026-05-03 | strong | Models | local litertlm ai android app (gemma 4) |
 | [tangxl0591/LiteRtLmAndroid](https://github.com/tangxl0591/LiteRtLmAndroid) | 0 | 2026-09-07 | strong | Models | LiteRtLm Android |
 | [thedandano/LiteRTLM-Swift](https://github.com/thedandano/LiteRTLM-Swift) | 0 | 2026-05-25 | strong | Bindings & wrappers | (no description) |
 | [wannaphong/llm2litertlm](https://github.com/wannaphong/llm2litertlm) | 0 | 2026-01-20 | strong | Models | (no description) |
@@ -68,31 +67,46 @@ in [.github/radar-ignore.txt](.github/radar-ignore.txt).
 
 | Model | Downloads | Likes |
 |---|---|---|
-| [litert-community/embeddinggemma-2-740m-litert-lm](https://huggingface.co/litert-community/embeddinggemma-2-740m-litert-lm) | 136746 | 36 |
-| [litert-community/embeddinggemma-2-text-270m-litert-lm](https://huggingface.co/litert-community/embeddinggemma-2-text-270m-litert-lm) | 13215 | 10 |
-| [google/gemma-3n-E2B-it-litert-lm](https://huggingface.co/google/gemma-3n-E2B-it-litert-lm) | 2003 | 621 |
-| [google/gemma-3n-E4B-it-litert-lm](https://huggingface.co/google/gemma-3n-E4B-it-litert-lm) | 1639 | 586 |
-| [litert-community/VibeVoice-ASR-Streaming-1.5B](https://huggingface.co/litert-community/VibeVoice-ASR-Streaming-1.5B) | 328 | 2 |
-| [litert-community/iris-3b-Turbo-LiteRT](https://huggingface.co/litert-community/iris-3b-Turbo-LiteRT) | 157 | 0 |
-| [litert-community/Qwen3.5-9B](https://huggingface.co/litert-community/Qwen3.5-9B) | 142 | 1 |
-| [litert-community/SenseVoiceSmall-ko-zeroth](https://huggingface.co/litert-community/SenseVoiceSmall-ko-zeroth) | 123 | 0 |
-| [litert-community/NVIDIA-Nemotron-Labs-Dory1.0-4B](https://huggingface.co/litert-community/NVIDIA-Nemotron-Labs-Dory1.0-4B) | 122 | 3 |
-| [litert-community/LFM2-700M](https://huggingface.co/litert-community/LFM2-700M) | 121 | 2 |
-| [litert-community/Ministral-3-8B-Instruct-2512](https://huggingface.co/litert-community/Ministral-3-8B-Instruct-2512) | 106 | 2 |
-| [litert-community/LFM2-2.6B](https://huggingface.co/litert-community/LFM2-2.6B) | 100 | 2 |
-| [litert-community/SenseVoiceSmall](https://huggingface.co/litert-community/SenseVoiceSmall) | 93 | 0 |
-| [litert-community/granite-4.1-8b](https://huggingface.co/litert-community/granite-4.1-8b) | 83 | 0 |
-| [litert-community/parakeet-redux](https://huggingface.co/litert-community/parakeet-redux) | 80 | 0 |
-| [litert-community/Vela-1.0-Encoder-307M-Embedding-LiteRT](https://huggingface.co/litert-community/Vela-1.0-Encoder-307M-Embedding-LiteRT) | 77 | 0 |
-| [litert-community/clef-flash-LiteRT](https://huggingface.co/litert-community/clef-flash-LiteRT) | 63 | 0 |
-| [litert-community/Falcon-H1R-7B](https://huggingface.co/litert-community/Falcon-H1R-7B) | 58 | 1 |
-| [litert-community/Olmo-3-7B-Think](https://huggingface.co/litert-community/Olmo-3-7B-Think) | 57 | 1 |
-| [litert-community/Ornith-1.5-9B](https://huggingface.co/litert-community/Ornith-1.5-9B) | 51 | 1 |
-| [litert-community/NVIDIA-Nemotron-Nano-9B-v2](https://huggingface.co/litert-community/NVIDIA-Nemotron-Nano-9B-v2) | 50 | 2 |
-| [litert-community/Ornith-1.0-9B](https://huggingface.co/litert-community/Ornith-1.0-9B) | 31 | 1 |
-| [litert-community/Qwen3.8-27B](https://huggingface.co/litert-community/Qwen3.8-27B) | 24 | 3 |
-| [litert-community/granite-3.0-1b-a400m-instruct](https://huggingface.co/litert-community/granite-3.0-1b-a400m-instruct) | 20 | 0 |
-| [litert-community/WeVisOne-VL-2B](https://huggingface.co/litert-community/WeVisOne-VL-2B) | 18 | 4 |
-| [DuoNeural/Gemma-4-Abliterated-LiteRT](https://huggingface.co/DuoNeural/Gemma-4-Abliterated-LiteRT) | 0 | 20 |
-| [litert-community/phonon-31m-en](https://huggingface.co/litert-community/phonon-31m-en) | 0 | 0 |
-| [litert-community/pocket-tts](https://huggingface.co/litert-community/pocket-tts) | 0 | 0 |
+| [litert-community/embeddinggemma-2-740m-litert-lm](https://huggingface.co/litert-community/embeddinggemma-2-740m-litert-lm) | 168437 | 40 |
+| [PeppX/gemma-4-e2b-uncensored-litertlm](https://huggingface.co/PeppX/gemma-4-e2b-uncensored-litertlm) | 34226 | 30 |
+| [litert-community/embeddinggemma-2-text-270m-litert-lm](https://huggingface.co/litert-community/embeddinggemma-2-text-270m-litert-lm) | 16991 | 11 |
+| [litert-community/sopro-v2-turbo](https://huggingface.co/litert-community/sopro-v2-turbo) | 4635 | 2 |
+| [google/gemma-3n-E2B-it-litert-lm](https://huggingface.co/google/gemma-3n-E2B-it-litert-lm) | 2805 | 628 |
+| [olekk/gemma-4-E4B-it-abliterated-litert-lm](https://huggingface.co/olekk/gemma-4-E4B-it-abliterated-litert-lm) | 2667 | 11 |
+| [litert-community/Gemma3-1B-IT-Tensor-NPU](https://huggingface.co/litert-community/Gemma3-1B-IT-Tensor-NPU) | 2065 | 3 |
+| [google/gemma-3n-E4B-it-litert-lm](https://huggingface.co/google/gemma-3n-E4B-it-litert-lm) | 1651 | 590 |
+| [litert-community/NVIDIA-Nemotron-Labs-Dory1.0-4B](https://huggingface.co/litert-community/NVIDIA-Nemotron-Labs-Dory1.0-4B) | 864 | 3 |
+| [litert-community/LFM3-1.7B-LiteRT](https://huggingface.co/litert-community/LFM3-1.7B-LiteRT) | 851 | 1 |
+| [Tdamre/limite-1b-violetto-GGUF-LiteRT](https://huggingface.co/Tdamre/limite-1b-violetto-GGUF-LiteRT) | 825 | 3 |
+| [litert-community/decider-2b-vision-LiteRT](https://huggingface.co/litert-community/decider-2b-vision-LiteRT) | 653 | 3 |
+| [typomonster/supergemma4-e4b-abliterated-litert-lm](https://huggingface.co/typomonster/supergemma4-e4b-abliterated-litert-lm) | 646 | 19 |
+| [litert-community/iris-3b-Turbo-LiteRT](https://huggingface.co/litert-community/iris-3b-Turbo-LiteRT) | 640 | 1 |
+| [litert-community/Laya-English-LiteRT](https://huggingface.co/litert-community/Laya-English-LiteRT) | 547 | 3 |
+| [Arm/parakeet-tdt-0-6b-v3-int8-litert](https://huggingface.co/Arm/parakeet-tdt-0-6b-v3-int8-litert) | 463 | 1 |
+| [litert-community/parakeet-redux](https://huggingface.co/litert-community/parakeet-redux) | 294 | 1 |
+| [litert-community/Nemotron-3-Diarization-LiteRT](https://huggingface.co/litert-community/Nemotron-3-Diarization-LiteRT) | 249 | 6 |
+| [litert-community/Ming-3.0-tts-0.5B](https://huggingface.co/litert-community/Ming-3.0-tts-0.5B) | 237 | 3 |
+| [litert-community/LFM3-Audio-2B-LiteRT](https://huggingface.co/litert-community/LFM3-Audio-2B-LiteRT) | 200 | 5 |
+| [litert-community/MiniCPM-OCR-1.0](https://huggingface.co/litert-community/MiniCPM-OCR-1.0) | 167 | 1 |
+| [litert-community/WeVisOne-VL-2B](https://huggingface.co/litert-community/WeVisOne-VL-2B) | 161 | 5 |
+| [litert-community/LFM2-2.6B-Exp](https://huggingface.co/litert-community/LFM2-2.6B-Exp) | 159 | 3 |
+| [litert-community/NVIDIA-Nemotron-3.5-Bolt-E4B](https://huggingface.co/litert-community/NVIDIA-Nemotron-3.5-Bolt-E4B) | 156 | 3 |
+| [litert-community/LFM3-VL-2B-LiteRT](https://huggingface.co/litert-community/LFM3-VL-2B-LiteRT) | 151 | 3 |
+| [litert-community/Vela-1.0-Encoder-307M-Embedding-LiteRT](https://huggingface.co/litert-community/Vela-1.0-Encoder-307M-Embedding-LiteRT) | 143 | 1 |
+| [litert-community/Spark-X2.6-4B](https://huggingface.co/litert-community/Spark-X2.6-4B) | 123 | 3 |
+| [litert-community/LFM3-Omni-2B-LiteRT](https://huggingface.co/litert-community/LFM3-Omni-2B-LiteRT) | 118 | 7 |
+| [litert-community/parakeet-ultra](https://huggingface.co/litert-community/parakeet-ultra) | 117 | 1 |
+| [litert-community/Qwen3.8-27B](https://huggingface.co/litert-community/Qwen3.8-27B) | 114 | 3 |
+| [soniqo/Chatterbox-LiteRT](https://huggingface.co/soniqo/Chatterbox-LiteRT) | 78 | 3 |
+| [litert-community/Spark-X2.6-1.7B](https://huggingface.co/litert-community/Spark-X2.6-1.7B) | 68 | 2 |
+| [Arm/nemotron-3-diarization-litert-int8](https://huggingface.co/Arm/nemotron-3-diarization-litert-int8) | 65 | 1 |
+| [litert-community/granite-3.0-1b-a400m-instruct](https://huggingface.co/litert-community/granite-3.0-1b-a400m-instruct) | 48 | 0 |
+| [Arm/nemotron-3-diarization-litert-fp32](https://huggingface.co/Arm/nemotron-3-diarization-litert-fp32) | 47 | 1 |
+| [litert-community/Muse-Glimmer-30B-LiteRT](https://huggingface.co/litert-community/Muse-Glimmer-30B-LiteRT) | 31 | 1 |
+| [litert-community/Qwen2.5-VL-72B-Instruct-LiteRT](https://huggingface.co/litert-community/Qwen2.5-VL-72B-Instruct-LiteRT) | 27 | 1 |
+| [JackJ1/functiongemma-270m-it-mobile-actions-litertlm](https://huggingface.co/JackJ1/functiongemma-270m-it-mobile-actions-litertlm) | 23 | 11 |
+| [brine7302/gemma-4-E2B-abliterated-litert-lm](https://huggingface.co/brine7302/gemma-4-E2B-abliterated-litert-lm) | 0 | 4 |
+| [google/gemma-3n-E2B-it-litert-preview](https://huggingface.co/google/gemma-3n-E2B-it-litert-preview) | 0 | 615 |
+| [litert-community/phonon-31m-en](https://huggingface.co/litert-community/phonon-31m-en) | 0 | 3 |
+| [litert-community/pocket-tts](https://huggingface.co/litert-community/pocket-tts) | 0 | 1 |
+| [nqd145/Gemma-4-E2B-it-abliterated-litertlm](https://huggingface.co/nqd145/Gemma-4-E2B-it-abliterated-litertlm) | 0 | 23 |
