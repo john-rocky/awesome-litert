@@ -1,0 +1,842 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "sourceName": "john-rocky LiteRT models",
+  "sourceDescription": "LiteRT-LM chat models on litert-community, converted by john-rocky and checked on LiteRT-LM 0.16.1.",
+  "sourceIconUrl": "",
+  "models": [
+    {
+      "name": "DeepSeek-R1-Distill-Qwen-7B",
+      "modelId": "litert-community/DeepSeek-R1-Distill-Qwen-7B",
+      "modelFile": "DeepSeek-R1-Distill-Qwen-7B_q4_block32_ekv4096.litertlm",
+      "commitHash": "597b47ee02f2676b3aab3e68d3e7469d98ee40bc",
+      "description": "A variant of [deepseek-ai/DeepSeek-R1-Distill-Qwen-7B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 4533698560,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "FastContext-1.0-4B-SFT",
+      "modelId": "litert-community/FastContext-1.0-4B-SFT",
+      "modelFile": "model.litertlm",
+      "commitHash": "44742cb96d48f8983231d96aadad7aec86fca959",
+      "description": "A variant of [microsoft/FastContext-1.0-4B-SFT](https://huggingface.co/microsoft/FastContext-1.0-4B-SFT) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 2662924288,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "G9v3-3B",
+      "modelId": "litert-community/G9v3-3B",
+      "modelFile": "G9v3-3B_int4.litertlm",
+      "commitHash": "78360d6d37240497daee7fb9a296f41edec754df",
+      "description": "A variant of [ai9stars/G9v3-3B](https://huggingface.co/ai9stars/G9v3-3B) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 1834565632,
+      "minDeviceMemoryInGb": 8,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "llmSupportThinking": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "granite-3.0-1b-a400m-instruct",
+      "modelId": "litert-community/granite-3.0-1b-a400m-instruct",
+      "modelFile": "granite-3.0-1b-a400m-instruct_int8.litertlm",
+      "commitHash": "9571313d93a94e41693d8e9a1d35b0450bb30736",
+      "description": "A variant of [ibm-granite/granite-3.0-1b-a400m-instruct](https://huggingface.co/ibm-granite/granite-3.0-1b-a400m-instruct) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 2,048-token context.",
+      "sizeInBytes": 1372745360,
+      "minDeviceMemoryInGb": 8,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 2048,
+        "maxTokens": 2048,
+        "accelerators": "gpu,cpu"
+      },
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "granite-4.0-micro",
+      "modelId": "litert-community/granite-4.0-micro",
+      "modelFile": "granite-4.0-micro_int4.litertlm",
+      "commitHash": "894dc75514012b6fd6d3970a47449381abc6a8fd",
+      "description": "A variant of [ibm-granite/granite-4.0-micro](https://huggingface.co/ibm-granite/granite-4.0-micro) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 2198475104,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "granite-4.1-3b",
+      "modelId": "litert-community/granite-4.1-3b",
+      "modelFile": "granite-4.1-3b_int4.litertlm",
+      "commitHash": "ca714428861556f2ce56237edc3e824f850ff4f5",
+      "description": "A variant of [ibm-granite/granite-4.1-3b](https://huggingface.co/ibm-granite/granite-4.1-3b) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 2191540224,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "granite-4.1-8b",
+      "modelId": "litert-community/granite-4.1-8b",
+      "modelFile": "granite-4.1-8b_int4.litertlm",
+      "commitHash": "99579c31c55a6d1966e3daef1c04989954530d36",
+      "description": "A variant of [ibm-granite/granite-4.1-8b](https://huggingface.co/ibm-granite/granite-4.1-8b) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 5151986096,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "granite-4.2-3b",
+      "modelId": "litert-community/granite-4.2-3b",
+      "modelFile": "granite-4.2-3b_int4.litertlm",
+      "commitHash": "d6f71deccc887e6c3dad46d02c23dee585b11fb1",
+      "description": "A variant of [ibm-granite/granite-4.2-3b](https://huggingface.co/ibm-granite/granite-4.2-3b) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 2190819328,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "llmSupportThinking": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "granite-docling-258M",
+      "modelId": "litert-community/granite-docling-258M",
+      "modelFile": "granite-docling-258M.litertlm",
+      "commitHash": "52db61f1ca7a5f2d60f43a59900f3b84eaca8951",
+      "description": "A variant of [ibm-granite/granite-docling-258M](https://huggingface.co/ibm-granite/granite-docling-258M) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context. Converts document images to structured text; it is not a general chat model. CPU only.",
+      "sizeInBytes": 337946336,
+      "minDeviceMemoryInGb": 6,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "cpu",
+        "visionAccelerator": "cpu"
+      },
+      "llmSupportImage": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "InternVL3-1B",
+      "modelId": "litert-community/InternVL3-1B",
+      "modelFile": "InternVL3-1B.litertlm",
+      "commitHash": "0a181a9ee4386c9569c2bf3e67b002462543691d",
+      "description": "A variant of [OpenGVLab/InternVL3-1B](https://huggingface.co/OpenGVLab/InternVL3-1B) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 2,048-token context.",
+      "sizeInBytes": 737314160,
+      "minDeviceMemoryInGb": 6,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 2048,
+        "maxTokens": 2048,
+        "accelerators": "gpu,cpu",
+        "visionAccelerator": "gpu"
+      },
+      "llmSupportImage": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "InternVL3-2B",
+      "modelId": "litert-community/InternVL3-2B",
+      "modelFile": "InternVL3-2B.litertlm",
+      "commitHash": "0c77b1e679335dd4ce87937d061ecf6d07e10a0c",
+      "description": "A variant of [OpenGVLab/InternVL3-2B](https://huggingface.co/OpenGVLab/InternVL3-2B) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 2,048-token context.",
+      "sizeInBytes": 1429640560,
+      "minDeviceMemoryInGb": 8,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 2048,
+        "maxTokens": 2048,
+        "accelerators": "gpu,cpu",
+        "visionAccelerator": "gpu"
+      },
+      "llmSupportImage": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "InternVL3_5-1B",
+      "modelId": "litert-community/InternVL3_5-1B",
+      "modelFile": "model.litertlm",
+      "commitHash": "41b14fd8db47eea38e69b7b9b07b225993b073d2",
+      "description": "A variant of [OpenGVLab/InternVL3_5-1B](https://huggingface.co/OpenGVLab/InternVL3_5-1B) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 2,048-token context.",
+      "sizeInBytes": 817517936,
+      "minDeviceMemoryInGb": 6,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 2048,
+        "maxTokens": 2048,
+        "accelerators": "gpu,cpu",
+        "visionAccelerator": "gpu"
+      },
+      "llmSupportImage": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "InternVL3_5-2B",
+      "modelId": "litert-community/InternVL3_5-2B",
+      "modelFile": "model.litertlm",
+      "commitHash": "e596184e78525c12697e54890f00dd961c3d1916",
+      "description": "A variant of [OpenGVLab/InternVL3_5-2B](https://huggingface.co/OpenGVLab/InternVL3_5-2B) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 2,048-token context.",
+      "sizeInBytes": 1613223280,
+      "minDeviceMemoryInGb": 8,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 2048,
+        "maxTokens": 2048,
+        "accelerators": "gpu,cpu",
+        "visionAccelerator": "gpu"
+      },
+      "llmSupportImage": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "InternVL3_5-4B",
+      "modelId": "litert-community/InternVL3_5-4B",
+      "modelFile": "model.litertlm",
+      "commitHash": "7949fcebc8cc9b2c76df1d9fee829d6101c9f25e",
+      "description": "A variant of [OpenGVLab/InternVL3_5-4B](https://huggingface.co/OpenGVLab/InternVL3_5-4B) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 2,048-token context.",
+      "sizeInBytes": 2992182640,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 2048,
+        "maxTokens": 2048,
+        "accelerators": "gpu,cpu",
+        "visionAccelerator": "gpu"
+      },
+      "llmSupportImage": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "Jan-nano",
+      "modelId": "litert-community/Jan-nano",
+      "modelFile": "model.litertlm",
+      "commitHash": "f76df90a01ef805f515b025c2aeafe6f94aee978",
+      "description": "A variant of [Menlo/Jan-nano](https://huggingface.co/Menlo/Jan-nano) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 2474377216,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "LLaVA-OneVision-0.5B",
+      "modelId": "litert-community/LLaVA-OneVision-0.5B",
+      "modelFile": "LLaVA-OneVision-0.5B.litertlm",
+      "commitHash": "bf4d93272878ad7de02800c6b7e2bbe58d8c0008",
+      "description": "A variant of [llava-hf/llava-onevision-qwen2-0.5b-ov-hf](https://huggingface.co/llava-hf/llava-onevision-qwen2-0.5b-ov-hf) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 2,048-token context.",
+      "sizeInBytes": 828590400,
+      "minDeviceMemoryInGb": 6,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 2048,
+        "maxTokens": 2048,
+        "accelerators": "gpu,cpu",
+        "visionAccelerator": "gpu"
+      },
+      "llmSupportImage": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "Mage-VL",
+      "modelId": "litert-community/Mage-VL",
+      "modelFile": "Mage-VL.litertlm",
+      "commitHash": "36e7fe01a3e18015b29b3e42dc3f6f77dc2ed126",
+      "description": "A variant of [microsoft/Mage-VL](https://huggingface.co/microsoft/Mage-VL) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 2,048-token context.",
+      "sizeInBytes": 2811977104,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 2048,
+        "maxTokens": 2048,
+        "accelerators": "gpu,cpu",
+        "visionAccelerator": "gpu"
+      },
+      "llmSupportImage": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "Mage-VL-Cowork",
+      "modelId": "litert-community/Mage-VL-Cowork",
+      "modelFile": "Mage-VL-Cowork_vision-fp16.litertlm",
+      "commitHash": "38bf428bca33e54cd94a8fa979764ba9268df9ac",
+      "description": "A variant of [microsoft/Mage-VL-Cowork](https://huggingface.co/microsoft/Mage-VL-Cowork) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 3199591888,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu",
+        "visionAccelerator": "cpu"
+      },
+      "llmSupportImage": true,
+      "llmSupportThinking": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "Ministral-3-3B-Instruct-2512",
+      "modelId": "litert-community/Ministral-3-3B-Instruct-2512",
+      "modelFile": "Ministral-3-3B-Instruct-2512_q4_block32_ekv4096.litertlm",
+      "commitHash": "cb1a823a3689405cc524bfe3ae051e58529422fd",
+      "description": "A variant of [mistralai/Ministral-3-3B-Instruct-2512](https://huggingface.co/mistralai/Ministral-3-3B-Instruct-2512) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 2342895616,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "Ministral-3-3B-Reasoning-2512",
+      "modelId": "litert-community/Ministral-3-3B-Reasoning-2512",
+      "modelFile": "model.litertlm",
+      "commitHash": "e2cc133fc9c2ce2bb673720838900b22dd664638",
+      "description": "A variant of [mistralai/Ministral-3-3B-Reasoning-2512](https://huggingface.co/mistralai/Ministral-3-3B-Reasoning-2512) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 2341011456,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "Ministral-3-8B-Instruct-2512",
+      "modelId": "litert-community/Ministral-3-8B-Instruct-2512",
+      "modelFile": "Ministral-3-8B-Instruct-2512_int4.litertlm",
+      "commitHash": "f61f6659d4e3313134e5dda51eeba8771235d4bc",
+      "description": "A variant of [mistralai/Ministral-3-8B-Instruct-2512](https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 5039124912,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "Nanbeige4.1-3B",
+      "modelId": "litert-community/Nanbeige4.1-3B",
+      "modelFile": "model.litertlm",
+      "commitHash": "7b3c5b7f16c647b6fcc1facd3806d3f430811050",
+      "description": "A variant of [Nanbeige/Nanbeige4.1-3B](https://huggingface.co/Nanbeige/Nanbeige4.1-3B) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 2409349120,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "Nanbeige4.2-3B",
+      "modelId": "litert-community/Nanbeige4.2-3B",
+      "modelFile": "model_fp32act.litertlm",
+      "commitHash": "7162bae425558c33dc508f6b253ce2da0fd3b6ea",
+      "description": "A variant of [Nanbeige/Nanbeige4.2-3B](https://huggingface.co/Nanbeige/Nanbeige4.2-3B) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 2579300352,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "North-Micro-Vision-Instruct",
+      "modelId": "litert-community/North-Micro-Vision-Instruct",
+      "modelFile": "North-Micro-Vision-Instruct_wi8.litertlm",
+      "commitHash": "d812a8a7219af9351c69e610ee53eec22641328b",
+      "description": "A variant of [CohereLabs/North-Micro-Vision-Instruct](https://huggingface.co/CohereLabs/North-Micro-Vision-Instruct) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 3071333792,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu",
+        "visionAccelerator": "gpu"
+      },
+      "llmSupportImage": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "NVIDIA-Nemotron-3.5-Bolt-E4B",
+      "modelId": "litert-community/NVIDIA-Nemotron-3.5-Bolt-E4B",
+      "modelFile": "NVIDIA-Nemotron-3.5-Bolt-E4B_int4.litertlm",
+      "commitHash": "6cfb168af35bd4052fab21fe2f8ab35b656f1111",
+      "description": "A variant of [nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-E4B-BF16) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 2,048-token context.",
+      "sizeInBytes": 4404768064,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 2048,
+        "maxTokens": 2048,
+        "accelerators": "gpu,cpu"
+      },
+      "llmSupportThinking": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "NVIDIA-Nemotron-Labs-Dory1.0-4B",
+      "modelId": "litert-community/NVIDIA-Nemotron-Labs-Dory1.0-4B",
+      "modelFile": "NVIDIA-Nemotron-Labs-Dory1.0-4B_int4.litertlm",
+      "commitHash": "42ee53aee099800d3895f4c26ad0c1c822d5d9f0",
+      "description": "A variant of [nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16](https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 2,048-token context.",
+      "sizeInBytes": 2403851584,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 2048,
+        "maxTokens": 2048,
+        "accelerators": "gpu,cpu"
+      },
+      "llmSupportThinking": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "OLMo-2-1B-Instruct",
+      "modelId": "litert-community/OLMo-2-1B-Instruct",
+      "modelFile": "OLMo-2-1B-Instruct_q4_block32_ekv4096.litertlm",
+      "commitHash": "630ee8fd61882d88e1bac7405ed9c38c7db78724",
+      "description": "A variant of [allenai/OLMo-2-0425-1B-Instruct](https://huggingface.co/allenai/OLMo-2-0425-1B-Instruct) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 931250176,
+      "minDeviceMemoryInGb": 6,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "Ovis2.5-2B",
+      "modelId": "litert-community/Ovis2.5-2B",
+      "modelFile": "Ovis2.5-2B.litertlm",
+      "commitHash": "ccb799150dff7a8023c1c539ac0e020df2201430",
+      "description": "A variant of [AIDC-AI/Ovis2.5-2B](https://huggingface.co/AIDC-AI/Ovis2.5-2B) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 2,048-token context.",
+      "sizeInBytes": 2148712880,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 2048,
+        "maxTokens": 2048,
+        "accelerators": "gpu,cpu",
+        "visionAccelerator": "gpu"
+      },
+      "llmSupportImage": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "PaddleOCR-VL-1.6",
+      "modelId": "litert-community/PaddleOCR-VL-1.6",
+      "modelFile": "PaddleOCR-VL-1.6.litertlm",
+      "commitHash": "2a58a00126eaa2159b1a4368fb56ef5ed522fd57",
+      "description": "A variant of [PaddlePaddle/PaddleOCR-VL-1.6](https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context. Reads documents: send an image with a task prompt such as `OCR:`. It does not answer general questions.",
+      "sizeInBytes": 1390305472,
+      "minDeviceMemoryInGb": 8,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu",
+        "visionAccelerator": "gpu"
+      },
+      "llmSupportImage": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "Phi-4-mini-reasoning",
+      "modelId": "litert-community/Phi-4-mini-reasoning",
+      "modelFile": "model.litertlm",
+      "commitHash": "554c164403568a28ae5742fe485ad78903e87b59",
+      "description": "A variant of [microsoft/Phi-4-mini-reasoning](https://huggingface.co/microsoft/Phi-4-mini-reasoning) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 2784198656,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "Polaris-4B-Preview",
+      "modelId": "litert-community/Polaris-4B-Preview",
+      "modelFile": "model.litertlm",
+      "commitHash": "888413558637ede928e1bdf29833144dfbe7d71a",
+      "description": "A variant of [POLARIS-Project/Polaris-4B-Preview](https://huggingface.co/POLARIS-Project/Polaris-4B-Preview) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 2474377216,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "Qwen2-VL-2B",
+      "modelId": "litert-community/Qwen2-VL-2B",
+      "modelFile": "Qwen2-VL-2B.litertlm",
+      "commitHash": "be3809f1d80e2adac2ad929bf483c960ca907023",
+      "description": "A variant of [Qwen/Qwen2-VL-2B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 1783424544,
+      "minDeviceMemoryInGb": 8,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu",
+        "visionAccelerator": "gpu"
+      },
+      "llmSupportImage": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "Qwen2.5-Coder-1.5B-Instruct",
+      "modelId": "litert-community/Qwen2.5-Coder-1.5B-Instruct",
+      "modelFile": "Qwen2.5-Coder-1.5B-Instruct_int4.litertlm",
+      "commitHash": "0cb76df9b1b1721b7ed4ef2af335bfbbe5ea8cca",
+      "description": "A variant of [Qwen/Qwen2.5-Coder-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 1117454336,
+      "minDeviceMemoryInGb": 8,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "Qwen3-4B-Thinking-2507",
+      "modelId": "litert-community/Qwen3-4B-Thinking-2507",
+      "modelFile": "model.litertlm",
+      "commitHash": "c6450d2f44bf191a5a0cd9aa279c46184d3c1650",
+      "description": "A variant of [Qwen/Qwen3-4B-Thinking-2507](https://huggingface.co/Qwen/Qwen3-4B-Thinking-2507) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 2477211648,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "sarashina2.2-0.5b-instruct-v0.1",
+      "modelId": "litert-community/sarashina2.2-0.5b-instruct-v0.1",
+      "modelFile": "sarashina2.2-0.5b-instruct-v0.1_int4.litertlm",
+      "commitHash": "006e4f1797d5e6c1007edfe596821b78990e205f",
+      "description": "A variant of [sbintuitions/sarashina2.2-0.5b-instruct-v0.1](https://huggingface.co/sbintuitions/sarashina2.2-0.5b-instruct-v0.1) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context. A Japanese model; its English answers are weaker.",
+      "sizeInBytes": 534593536,
+      "minDeviceMemoryInGb": 6,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "sarashina2.2-1b-instruct-v0.1",
+      "modelId": "litert-community/sarashina2.2-1b-instruct-v0.1",
+      "modelFile": "sarashina2.2-1b-instruct-v0.1_int4.litertlm",
+      "commitHash": "8b9894ac95d879b20d75b73c3d48f4825af20735",
+      "description": "A variant of [sbintuitions/sarashina2.2-1b-instruct-v0.1](https://huggingface.co/sbintuitions/sarashina2.2-1b-instruct-v0.1) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context. A Japanese model.",
+      "sizeInBytes": 903757824,
+      "minDeviceMemoryInGb": 6,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "SmolVLM2-2.2B",
+      "modelId": "litert-community/SmolVLM2-2.2B",
+      "modelFile": "SmolVLM2-2.2B.litertlm",
+      "commitHash": "29065c4a7d7f129cf634cf435563d4d7c8d20426",
+      "description": "A variant of [HuggingFaceTB/SmolVLM2-2.2B-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM2-2.2B-Instruct) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 2,048-token context.",
+      "sizeInBytes": 1511123888,
+      "minDeviceMemoryInGb": 8,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 2048,
+        "maxTokens": 2048,
+        "accelerators": "gpu,cpu",
+        "visionAccelerator": "gpu"
+      },
+      "llmSupportImage": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "SmolVLM2-500M",
+      "modelId": "litert-community/SmolVLM2-500M",
+      "modelFile": "SmolVLM2-500M.litertlm",
+      "commitHash": "fb4a60507747543d408de0c0ccec13e5a23c9c17",
+      "description": "A variant of [HuggingFaceTB/SmolVLM2-500M-Video-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 2,048-token context.",
+      "sizeInBytes": 360822960,
+      "minDeviceMemoryInGb": 6,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 2048,
+        "maxTokens": 2048,
+        "accelerators": "gpu,cpu",
+        "visionAccelerator": "gpu"
+      },
+      "llmSupportImage": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "Spark-X2.5-1.7B",
+      "modelId": "litert-community/Spark-X2.5-1.7B",
+      "modelFile": "Spark-X2.5-1.7B_int8.litertlm",
+      "commitHash": "9fb4d202b50ac36348305e9512333d7d0e3b0db3",
+      "description": "A variant of [XHToken/Spark-X2.5-1.7B](https://huggingface.co/XHToken/Spark-X2.5-1.7B) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 1834713088,
+      "minDeviceMemoryInGb": 8,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "llmSupportThinking": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "Spark-X2.5-4B",
+      "modelId": "litert-community/Spark-X2.5-4B",
+      "modelFile": "Spark-X2.5-4B_int4.litertlm",
+      "commitHash": "52b4b833d4d3ec7b3b7f33f16d002593f0f71226",
+      "description": "A variant of [XHToken/Spark-X2.5-4B](https://huggingface.co/XHToken/Spark-X2.5-4B) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 2482290688,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "llmSupportThinking": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "Spark-X2.6-1.7B",
+      "modelId": "litert-community/Spark-X2.6-1.7B",
+      "modelFile": "Spark-X2.6-1.7B_int8.litertlm",
+      "commitHash": "344d1a267592b1f3f51efd647cd1b21a408beacb",
+      "description": "A variant of [XHToken/Spark-X2.6-1.7B](https://huggingface.co/XHToken/Spark-X2.6-1.7B) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 1835670688,
+      "minDeviceMemoryInGb": 8,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "llmSupportThinking": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "Spark-X2.6-4B",
+      "modelId": "litert-community/Spark-X2.6-4B",
+      "modelFile": "Spark-X2.6-4B_int4.litertlm",
+      "commitHash": "9d37e8e347c38f6a2511e4d0be10a92e18c235b8",
+      "description": "A variant of [XHToken/Spark-X2.6-4B](https://huggingface.co/XHToken/Spark-X2.6-4B) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 2482999216,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "llmSupportThinking": true,
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "VibeThinker-3B",
+      "modelId": "litert-community/VibeThinker-3B",
+      "modelFile": "model.litertlm",
+      "commitHash": "1fa937cc4c4112e3de73cb12d639988e188cfe60",
+      "description": "A variant of [WeiboAI/VibeThinker-3B](https://huggingface.co/WeiboAI/VibeThinker-3B) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 4,096-token context.",
+      "sizeInBytes": 2059255808,
+      "minDeviceMemoryInGb": 8,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 4096,
+        "maxTokens": 4096,
+        "accelerators": "gpu,cpu"
+      },
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "WeVisOne-VL-2B",
+      "modelId": "litert-community/WeVisOne-VL-2B",
+      "modelFile": "WeVisOne-VL-2B_int8.litertlm",
+      "commitHash": "54c673c89dfc499d807ffd63b6b50cd53c72ed50",
+      "description": "A variant of [tencent/WeVisOne-VL-2B](https://huggingface.co/tencent/WeVisOne-VL-2B) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 2,048-token context.",
+      "sizeInBytes": 2913946112,
+      "minDeviceMemoryInGb": 12,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 2048,
+        "maxTokens": 2048,
+        "accelerators": "gpu,cpu",
+        "visionAccelerator": "gpu"
+      },
+      "llmSupportImage": true,
+      "minAppVersion": "0.9.7"
+    }
+  ]
+}
