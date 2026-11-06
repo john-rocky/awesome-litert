@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 1,
+  "contentVersion": 2,
   "sourceName": "john-rocky LiteRT models",
   "sourceDescription": "LiteRT-LM chat models on litert-community, converted by john-rocky and checked on LiteRT-LM 0.16.1.",
   "sourceIconUrl": "",
@@ -401,6 +401,24 @@
         "maxContextLength": 4096,
         "maxTokens": 4096,
         "accelerators": "gpu,cpu"
+      },
+      "minAppVersion": "0.9.7"
+    },
+    {
+      "name": "MNN-Pocket-0.3B",
+      "modelId": "litert-community/MNN-Pocket-0.3B",
+      "modelFile": "MNN-Pocket-0.3B_int8_ekv2048.litertlm",
+      "commitHash": "475036b0fe8bde0211b9eaf0fad1fe1bf77a3ce9",
+      "description": "A variant of [taobao-mnn/MNN-Pocket-0.3B](https://huggingface.co/taobao-mnn/MNN-Pocket-0.3B) ready for deployment on Android using [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM). 2,048-token context. CPU only: LiteRT-LM 0.16.1, the runtime in OlliteRT 0.9.7, does not run this file on the GPU.",
+      "sizeInBytes": 320025488,
+      "minDeviceMemoryInGb": 6,
+      "defaultConfig": {
+        "topK": 40,
+        "topP": 0.95,
+        "temperature": 0.7,
+        "maxContextLength": 2048,
+        "maxTokens": 2048,
+        "accelerators": "cpu"
       },
       "minAppVersion": "0.9.7"
     },
