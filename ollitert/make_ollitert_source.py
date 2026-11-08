@@ -87,6 +87,39 @@ PICKS = [
     ("WeVisOne-VL-2B", "WeVisOne-VL-2B_int8.litertlm", 2048, {"image": True}),
 ]
 
+# Files whose main version moved to external weights on 2026-11-09 (the weights sit in a TFLiteWeights section at the
+# end of the file; the answers are the same). Their cards give LiteRT-LM 0.19.0 as the Android floor for such a file,
+# and OlliteRT 0.9.7 ships 0.16.1, so the list keeps serving the commit each file was checked at instead of main.
+# Remove the whole dict when OlliteRT ships LiteRT-LM 0.19.0. A row may come off earlier once the file on main has
+# loaded and answered through OlliteRT (LiteRT-LM 0.16.1) on a phone.
+PINNED = {
+    "granite-3.0-1b-a400m-instruct": "9571313d93a94e41693d8e9a1d35b0450bb30736",
+    "granite-4.0-micro": "894dc75514012b6fd6d3970a47449381abc6a8fd",
+    "granite-4.1-8b": "99579c31c55a6d1966e3daef1c04989954530d36",
+    "granite-docling-258M": "52db61f1ca7a5f2d60f43a59900f3b84eaca8951",
+    "InternVL3-1B": "0a181a9ee4386c9569c2bf3e67b002462543691d",
+    "InternVL3-2B": "0c77b1e679335dd4ce87937d061ecf6d07e10a0c",
+    "InternVL3_5-1B": "41b14fd8db47eea38e69b7b9b07b225993b073d2",
+    "InternVL3_5-2B": "e596184e78525c12697e54890f00dd961c3d1916",
+    "InternVL3_5-4B": "7949fcebc8cc9b2c76df1d9fee829d6101c9f25e",
+    "LLaVA-OneVision-0.5B": "bf4d93272878ad7de02800c6b7e2bbe58d8c0008",
+    "Mage-VL": "36e7fe01a3e18015b29b3e42dc3f6f77dc2ed126",
+    "Mage-VL-Cowork": "38bf428bca33e54cd94a8fa979764ba9268df9ac",
+    "Ministral-3-8B-Instruct-2512": "f61f6659d4e3313134e5dda51eeba8771235d4bc",
+    "MNN-Pocket-0.3B": "475036b0fe8bde0211b9eaf0fad1fe1bf77a3ce9",
+    "North-Micro-Vision-Instruct": "d812a8a7219af9351c69e610ee53eec22641328b",
+    "NVIDIA-Nemotron-3.5-Bolt-E4B": "6cfb168af35bd4052fab21fe2f8ab35b656f1111",
+    "NVIDIA-Nemotron-Labs-Dory1.0-4B": "42ee53aee099800d3895f4c26ad0c1c822d5d9f0",
+    "Ovis2.5-2B": "ccb799150dff7a8023c1c539ac0e020df2201430",
+    "PaddleOCR-VL-1.6": "2a58a00126eaa2159b1a4368fb56ef5ed522fd57",
+    "Qwen2-VL-2B": "be3809f1d80e2adac2ad929bf483c960ca907023",
+    "SmolVLM2-2.2B": "29065c4a7d7f129cf634cf435563d4d7c8d20426",
+    "SmolVLM2-500M": "fb4a60507747543d408de0c0ccec13e5a23c9c17",
+    "Spark-X2.6-1.7B": "344d1a267592b1f3f51efd647cd1b21a408beacb",
+    "Spark-X2.6-4B": "9d37e8e347c38f6a2511e4d0be10a92e18c235b8",
+    "WeVisOne-VL-2B": "54c673c89dfc499d807ffd63b6b50cd53c72ed50",
+}
+
 DEVICE_RUN = ("Six of them also ran through OlliteRT 0.9.7-beta.1 on a Pixel 11 Pro: SmolVLM2-500M, "
               "sarashina2.2-0.5b-instruct-v0.1, Spark-X2.6-1.7B, PaddleOCR-VL-1.6 and DeepSeek-R1-Distill-Qwen-7B "
               "on the GPU, MNN-Pocket-0.3B on the CPU.")
@@ -123,10 +156,13 @@ def build_entry(repo, file, ctx, opts, previous):
     info = fetch(f"{HF}/api/models/{repo_id}")
     if info.get("gated"):
         sys.exit(f"{repo_id} is gated; OlliteRT would need a token")
-    tree = fetch(f"{HF}/api/models/{repo_id}/tree/main?expand=true")
+    rev = PINNED.get(repo, "main")
+    tree = fetch(f"{HF}/api/models/{repo_id}/tree/{rev}?expand=true")
     row = next((t for t in tree if t["path"] == file), None)
     if row is None:
-        sys.exit(f"{repo_id} has no {file}")
+        sys.exit(f"{repo_id} has no {file} at {rev}")
+    if rev != "main" and row["lastCommit"]["id"] != rev:
+        sys.exit(f"{repo_id}: {file} at {rev} was last changed by {row['lastCommit']['id']}, not by the pinned commit")
     card = info.get("cardData") or {}
     base = card.get("base_model")
     base = base[0] if isinstance(base, list) else base
