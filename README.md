@@ -93,6 +93,8 @@ Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Py
 - [itsyuimorii/obsidian-gemma4-litert-wiki](https://github.com/itsyuimorii/obsidian-gemma4-litert-wiki) — Run Gemma 4 E4B locally inside Obsidian via LiteRT-LM and WebGPU — private, offline, no API key, no Ollama, no server. Builds Andrej Karpathy's LLM wiki over...
 - [TakashiYoshinaga/LocalVisionAI-for-Unity](https://github.com/TakashiYoshinaga/LocalVisionAI-for-Unity) — Fully offline Unity sample for Android: describe camera photos and answer typed questions on-device with Gemma via LiteRT-LM. No network, model bundled in th...
 - [FilipFan/PolyEngineInfer](https://github.com/FilipFan/PolyEngineInfer) — Run LLM inference in an Android app with llama.cpp, ExecuTorch, LiteRT, ONNX, and more.
+- [ARM-software/compute-flow](https://github.com/ARM-software/compute-flow) — SDK for building on-device AI applications on Arm with reusable building blocks across inference runtimes.
+- [battlesbudz/Faraday](https://github.com/battlesbudz/Faraday) — Faraday, the on-device AI voice agent for Android. Gemma 4 runs entirely on your phone: real voice conversation, long-term memory, and tools. No cloud, no ac...
 
 ## Models
 
@@ -104,6 +106,7 @@ Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Py
 - [umarpazir11/pocketsage](https://github.com/umarpazir11/pocketsage) — A fully offline, on-device RAG app for Android. Ask questions about any PDF — your data never leaves the phone.
 - [xprilion/gemma3-270m-finetune-litert](https://github.com/xprilion/gemma3-270m-finetune-litert) — (no description)
 - [andrisgauracs/eye-photo-sorter](https://github.com/andrisgauracs/eye-photo-sorter) — Drop a folder of photos; Desert Ant Labs' Eye sorts them into receipts, screenshots, documents, pets, blurry, eyes closed and duplicates, entirely in the bro...
+- [p-nickzhang-q/photo-ledger](https://github.com/p-nickzhang-q/photo-ledger) — 把支付截图变成账目：端侧 OCR + 0.6B LLM 约束解码，全程离线、数据不出设备的 Android 记账应用
 
 ## Conversion & quantization
 
@@ -111,6 +114,7 @@ Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Py
 - [LiteRT-CLI](https://github.com/google-ai-edge/LiteRT-CLI) — `litert convert` / `litert quantize` for classic models from a small Python wrapper class.
 - [ai-edge-quantizer](https://github.com/google-ai-edge/ai-edge-quantizer) — Standalone quantization when you need recipe control (see [Official](#official)).
 - [edge-lint](https://github.com/john-rocky/edge-compat#edge-lint--static-delegate-pre-flight) — Static pre-flight for a `.tflite`: predicts GPU delegate fallback per op from a measured matrix before you run it, no device or runtime needed (CI-friendly, exit codes + JSON).
+- [olibartfast/rf-detr-cpp-inference](https://github.com/olibartfast/rf-detr-cpp-inference) — RF-DETR C++ inference engine for object detection and instance segmentation with ONNX Runtime, TensorRT, Executorch and LiteRT support
 
 ## Serving
 
