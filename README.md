@@ -70,6 +70,8 @@ Device-verified recipes for adding one model to an app that already exists: the 
 
 ## Bindings & wrappers
 
+LiteRT-LM versions pinned by LiteRT-LM wrappers and apps, each linked to its file, line and commit: [wrapper version table](https://github.com/john-rocky/litertlm-release-gate/blob/main/wrappers/TABLE.md).
+
 Community bindings that take LiteRT / LiteRT-LM beyond C++, Kotlin, Swift and Python:
 
 - [leitingzi/kmplitert](https://github.com/leitingzi/kmplitert) — Kotlin Multiplatform: unified type-safe LiteRT API across platforms.
