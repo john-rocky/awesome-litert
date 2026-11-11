@@ -99,8 +99,9 @@ def classify(haystack):
     if any(k in haystack for k in ["book", "tutorial", "guide", "course", "hands-on",
                                    "codelab", "cookbook", "starter"]):
         return "## Learning"
-    if any(k in haystack for k in ["android app", "ios app", "sample app", "chat app",
-                                   "kotlin", "flutter", "runtime"]):
+    if any(k in haystack for k in ["android app", "ios app", "chat app"]):
+        return "## Apps"
+    if any(k in haystack for k in ["sample app", "kotlin", "flutter", "runtime"]):
         return "## Running models in your app"
     if re.search(r"\bmodels?\b", haystack):
         return "## Models"
@@ -112,8 +113,15 @@ def clean_description(desc):
     desc = re.sub(r"[\U0001F000-\U0001FAFF☀-➿]", "", desc).strip()
     desc = desc.replace("|", "\\|")
     if len(desc) > 160:
-        desc = desc[:157].rstrip() + "..."
-    return desc or "(no description)"
+        # Cut at a sentence, clause or word end: a list entry must not end in half a word.
+        head = desc[:160]
+        for mark in (". ", "; ", ", ", " "):
+            cut = head.rfind(mark)
+            if cut > 40:
+                head = head[:cut]
+                break
+        desc = head.rstrip(" ,;:") + "."
+    return desc
 
 
 def github_candidates(token, ignored, listed):
@@ -214,7 +222,7 @@ def build_watchlist(watch, hf):
                   "| Repo | ★ | Created | Signal | Guessed section | Description |",
                   "|---|---|---|---|---|---|"]
         lines += [f"| [{c['full_name']}]({c['url']}) | {c['stars']} | {c['created']} | "
-                  f"{c['signal']} | {(c['section'] or '?').lstrip('# ')} | {c['description']} |"
+                  f"{c['signal']} | {(c['section'] or '?').lstrip('# ')} | {c['description'] or '(no description)'} |"
                   for c in sorted(watch, key=lambda c: (-c["stars"], c["full_name"]))]
         lines.append("")
     if hf:
@@ -255,7 +263,7 @@ def main():
     placed, watch = [], []
     for c in sorted(gh, key=lambda c: -c["stars"]):
         # Auto-add only confident finds with some traction; the rest wait on the watchlist.
-        if (c["signal"] == "strong" and c["stars"] >= AUTO_ADD_MIN_STARS and c["section"]
+        if (c["signal"] == "strong" and c["stars"] >= AUTO_ADD_MIN_STARS and c["section"] and c["description"]
                 and insert_into_section(
                     readme_lines, c["section"],
                     f"- [{c['full_name']}]({c['url']}) — {c['description']}")):
