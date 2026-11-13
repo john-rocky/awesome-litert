@@ -92,6 +92,8 @@ PICKS = [
 # and OlliteRT 0.9.7 ships 0.16.1, so the list keeps serving the commit each file was checked at instead of main.
 # Remove the whole dict when OlliteRT ships LiteRT-LM 0.19.0. A row may come off earlier once the file on main has
 # loaded and answered through OlliteRT (LiteRT-LM 0.16.1) on a phone.
+# Qwen2.5-Coder-1.5B-Instruct is pinned for another reason: on 2026-11-14 its main file moved to a new prefill/decode
+# graph (the GPU composite form, weights unchanged), which has not yet run through OlliteRT (LiteRT-LM 0.16.1).
 PINNED = {
     "granite-3.0-1b-a400m-instruct": "9571313d93a94e41693d8e9a1d35b0450bb30736",
     "granite-4.0-micro": "894dc75514012b6fd6d3970a47449381abc6a8fd",
@@ -113,6 +115,7 @@ PINNED = {
     "Ovis2.5-2B": "ccb799150dff7a8023c1c539ac0e020df2201430",
     "PaddleOCR-VL-1.6": "2a58a00126eaa2159b1a4368fb56ef5ed522fd57",
     "Qwen2-VL-2B": "be3809f1d80e2adac2ad929bf483c960ca907023",
+    "Qwen2.5-Coder-1.5B-Instruct": "0cb76df9b1b1721b7ed4ef2af335bfbbe5ea8cca",
     "SmolVLM2-2.2B": "29065c4a7d7f129cf634cf435563d4d7c8d20426",
     "SmolVLM2-500M": "fb4a60507747543d408de0c0ccec13e5a23c9c17",
     "Spark-X2.6-1.7B": "344d1a267592b1f3f51efd647cd1b21a408beacb",
